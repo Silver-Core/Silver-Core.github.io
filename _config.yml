@@ -18,7 +18,7 @@ author: Silver-Core
 description: >- # this means to ignore newlines until "baseurl:"
   A Little blog made with Jekyll, I post some stuff here.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://silver-core.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SilverCore
 github_username:  Silver-Core
 logo: './assets/img/companion-cube.png'
