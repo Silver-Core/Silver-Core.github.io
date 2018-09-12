@@ -1,0 +1,32 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+@import url('syntax.css');
+
+// My changes.
+.blog-title, .post-title, .post-list-heading, .index-header, .index-desc {
+    font-family: 'Montserrat', sans-serif;
+    // font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ws-title {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ws-body {
+    font-family: 'Lato', sans-serif;
+}
+
+.dt-published, .post-meta, .post-link {
+    font-family: 'Lato';
+    text-align: center;
+}
